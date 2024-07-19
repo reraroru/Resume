@@ -1,3 +1,21 @@
+.link-button {
+  width: 100px;
+  text-align: center;
+  border-radius: 5px;
+  border-width: 3px;
+  border-color:#00ADB5;
+  margin-left: 10px;
+  padding-left: 2px;
+}
+
+.img-button {
+  border-style: double;
+  border-width: 4px;
+  border-color:#393E46;
+  margin-left: 10px;
+  padding: 0px;
+}
+
 .main1 {
   color: #222831;
 }
@@ -8,8 +26,22 @@
 
 .main3 {
   color: #00ADB5;
+  font-weight: bold;
 }
 
 .main4 {
   background-color: #EEEEEE;
+}
+
+.edu-au-500 {
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+a:link {
+  color: #00ADB5;
+  font-weight: bold;
+  text-decoration: none;
 }

@@ -5,18 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Resume</title>
     <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body class="main4">
-    <h1 class="main1">Resume</h1>
+    <tr>
+      <td><h1 class="main1">Resume</h1></td>
+      <td>
+        <img src="./assets/images/Profilbild.jpeg" height="200" style="border:4px double black; border-radius: 4px;"/>
+      </td>
+    </tr>
+
     <hr />
     <h2 class="main2">Summary</h2>
     <!--Summary still to be improved-->
-    <p class="main2">
-      This is a short resume of mine. For now, it's only for exemplary purpose
-      and shall be styled with css later.
-    </p>
+    <p class="main2 edu-au-500">"There is no place like 127.0.0.1"</p>
     <hr />
-    <ol class="main2" type="I" class="main2" style="padding-left: 2rem;";">
+    <ol class="main2" type="I" style="padding-left: 2rem">
       <!--style with css using 'margin' - to control list indentation-->
 
       <li>
@@ -24,8 +33,14 @@
         <!-- change font size with css -->
         <!--insert according to LinkedIn / local drive resume - save resume via cloud-->
         <ul>
-          <li><b class="main3">TU Darmstadt:</b> Industrial Engineering (M.Sc.)</li>
-          <li><b class="main3">TU Darmstadt:</b> Industrial Engineering (B.Sc.)</li>
+          <li>
+            <div class="main3">TU Darmstadt:</div>
+            Industrial Engineering (M.Sc.)
+          </li>
+          <li>
+            <div class="main3">TU Darmstadt:</div>
+            Industrial Engineering (B.Sc.)
+          </li>
           <li>Course Certificates etc.</li>
         </ul>
       </li>
@@ -36,9 +51,18 @@
         Work Experience
         <!-- change font size with css -->
         <ul>
-          <li><b class="main3">Fraunhofer IOSB:</b> Scientist</li>
-          <li><b class="main3">Bosch Taiwan:</b> Internship</li>
-          <li><b class="main3">Siemens AG:</b> Internship</li>
+          <li>
+            <div class="main3">Fraunhofer IOSB:</div>
+            Scientist
+          </li>
+          <li>
+            <div class="main3">Bosch Taiwan:</div>
+            Internship
+          </li>
+          <li>
+            <div class="main3">Siemens AG:</div>
+            Internship
+          </li>
         </ul>
       </li>
 
@@ -50,7 +74,7 @@
         <ul>
           <!--remove bulletpoints with CSS-->
           <li>
-            <b class="main3">Technical</b>
+            <div class="main3">Technical</div>
             <ul class="main2">
               <li>Python</li>
               <li>HTML</li>
@@ -58,7 +82,7 @@
             </ul>
           </li>
           <li>
-            <b class="main3">Languages</b>
+            <div class="main3">Languages</div>
             <ul class="main2">
               <li>German (Native)</li>
               <li>English (Fluent)</li>
@@ -70,12 +94,19 @@
       </li>
     </ol>
     <hr />
-    <img src="./assets/images/Profilbild.jpeg" height="200" />
-    <p>This is me!</p>
-    <a href="./public/hobbies.html"><b>&rarr; Hobbies</b></a>
-    <!-- remove tag underline with css -->
-    <br /><br />
-    <a href="./public/contact.html"><b>&rarr; Contact</b></a>
+
+    <p style="margin-left: 10px">This is me!</p>
+
+    <button class="link-button">
+      <a href="./public/hobbies.html">&rarr; Hobbies</a>
+    </button>
+
+    <br />
+    <br />
+    <button class="link-button">
+      <a href="./public/contact.html">&rarr; Contact</a>
+    </button>
+
     <hr />
     <footer>
       <p>&copy; maximilian zenner</p>
